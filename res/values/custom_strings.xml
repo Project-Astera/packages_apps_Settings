@@ -119,4 +119,8 @@
     <!-- Low battery light -->
     <string name="low_battery_light_title">Low battery light</string>
     <string name="low_battery_light_summary">Blink LED when battery is low</string>
+
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
 </resources>
