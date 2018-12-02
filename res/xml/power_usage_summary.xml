@@ -56,7 +56,13 @@
         android:defaultValue="false"
         settings:searchable="false" />
 
-   <Preference
+    <Preference
+        android:fragment="com.android.settings.fuelgauge.BatteryChargeSoundSettings"
+        android:key="battery_charge_sound"
+        android:title="@string/notification_battery_charge_level_title"
+        android:summary="@string/notification_battery_charge_level_summary" />
+
+    <Preference
         android:fragment="com.android.settings.fuelgauge.batterysaver.BatterySaverSettings"
         android:key="battery_saver_summary"
         android:order="-2"
