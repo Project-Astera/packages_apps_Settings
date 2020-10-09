@@ -23,6 +23,7 @@ import android.os.Bundle;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.display.BrightnessLevelPreferenceController;
 import com.android.settings.display.CameraGesturePreferenceController;
+import com.android.settings.display.EnableBlursPreferenceController;
 import com.android.settings.display.LiftToWakePreferenceController;
 import com.android.settings.display.PocketJudgePreferenceController;
 import com.android.settings.display.ShowOperatorNamePreferenceController;
@@ -80,6 +81,7 @@ public class DisplaySettings extends DashboardFragment {
             Context context, Lifecycle lifecycle) {
         final List<AbstractPreferenceController> controllers = new ArrayList<>();
         controllers.add(new CameraGesturePreferenceController(context));
+        controllers.add(new EnableBlursPreferenceController(context));
         controllers.add(new LiftToWakePreferenceController(context));
         controllers.add(new PocketJudgePreferenceController(context));
         controllers.add(new TapToWakePreferenceController(context));
