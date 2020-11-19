@@ -228,4 +228,7 @@
     <string name="settings_random5">Search settings</string>
     <string name="settings_random6">Dream big and dare to fail</string>
     <string name="default_user">User</string>
+
+    <!-- Radio Info -->
+    <string name="radio_info_title">Radio info</string>
 </resources>
