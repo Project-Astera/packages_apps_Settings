@@ -251,4 +251,7 @@
     <!-- Netflix Spoof -->
     <string name="netflix_spoof_title">Netflix spoof</string>
     <string name="netflix_spoof_summary">Spoof your device as different model for Netflix</string>
+
+    <!-- Radio Info -->
+    <string name="radio_info_title">Radio info</string>
 </resources>
