@@ -336,4 +336,7 @@
     <!-- USB configuration -->
     <string name="usb_default_config_title">USB configuration</string>
     <string name="usb_default_config_summary">Choose the default behavior when connected to a device via USB</string>
+
+    <!-- Name of Refresh Rate controls category in Display Settings [CHAR LIMIT=none] -->
+    <string name="category_name_refresh_rate_controls">Refresh Rate</string>
 </resources>
