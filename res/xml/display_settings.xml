@@ -229,6 +229,13 @@
             android:title="@string/proximity_wake_title"
             android:summary="@string/proximity_wake_summary" />
 
+        <!-- Disabling ripple effect on unlock -->
+        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="enable_ripple_effect"
+            android:title="@string/enable_fingerprint_ripple_effect_title"
+            android:summary="@string/enable_fingerprint_ripple_effect_summary"
+            android:defaultValue="true" />
+
         <ListPreference
             android:key="theme"
             android:title="@string/device_theme"
