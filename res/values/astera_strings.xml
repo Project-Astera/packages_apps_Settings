@@ -278,4 +278,8 @@
     <!-- Scroll fling haptic feedback -->
     <string name="scroll_fling_haptic_feedback_title">Vibrate on scroll flings</string>
     <string name="scroll_fling_haptic_feedback_summary">Vibrate on reaching edges when scrolling with fling gesture</string>
+
+    <!-- Hidden apps -->
+    <string name="hidden_apps_title">Hidden apps</string>
+    <string name="hidden_apps_summary">Applications that should be hidden from launcher. Requires a launcher restart for changes to take effect</string>
 </resources>
