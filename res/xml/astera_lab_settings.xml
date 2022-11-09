@@ -56,6 +56,7 @@
             android:max="100"
             android:min="1" />
 
+        <!-- QS brightness slider haptic -->
         <com.android.settings.custom.preference.SystemSettingSwitchPreference
             android:key="qs_brightness_slider_haptic"
             android:title="@string/qs_brightness_slider_haptic_title"
@@ -91,7 +92,7 @@
             android:summary="@string/use_photos_spoof_summary"
             android:defaultValue="true" />
 
-        <!-- Netflix -->
+        <!-- Netflix spoof -->
         <SwitchPreference
             android:key="use_netflix_spoof"
             android:title="@string/netflix_spoof_title"
@@ -100,7 +101,7 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:title="@string/lab_other_settings">
+        android:title="@string/lab_lockscreen_settings">
 
         <!-- Disabling ripple effect on unlock -->
         <com.android.settings.custom.preference.SystemSettingSwitchPreference
@@ -116,6 +117,24 @@
             android:summary="@string/lockscreen_battery_info_summary"
             android:defaultValue="true" />
 
+        <!-- Disable QS on lockscreen -->
+        <com.android.settings.custom.preference.SecureSettingSwitchPreference
+            android:key="secure_lockscreen_qs_disabled"
+            android:title="@string/disable_qs_title"
+            android:summary="@string/disable_qs_summary"
+            android:defaultValue="false" />
+
+        <!-- Disable power menu on lockscreen -->
+        <com.android.settings.custom.preference.SecureSettingSwitchPreference
+            android:key="power_menu_hide_on_secure"
+            android:title="@string/power_menu_hide_on_secure_title"
+            android:summary="@string/power_menu_hide_on_secure_summary"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/lab_other_settings">
+
         <!-- Hide ADB and Developer status-->
         <Preference
             android:key="hide_developer_status_settings"
@@ -123,12 +142,5 @@
             android:summary="@string/hide_developer_status_summary"
             android:fragment="com.android.settings.security.HideDeveloperStatusSettings"
             settings:controller="com.android.settings.security.HideDeveloperStatusPreferenceController" />
-
-        <!-- Disable QS on lockscreen -->
-        <com.android.settings.custom.preference.SecureSettingSwitchPreference
-            android:key="secure_lockscreen_qs_disabled"
-            android:title="@string/disable_qs_title"
-            android:summary="@string/disable_qs_summary"
-            android:defaultValue="false" />
     </PreferenceCategory>
 </PreferenceScreen>
