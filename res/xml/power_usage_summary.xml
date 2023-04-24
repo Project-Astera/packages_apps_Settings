@@ -116,6 +116,11 @@
         android:summary="@string/low_battery_light_summary"
         settings:controller="com.android.settings.notification.BatteryLightPreferenceController"/>
 
+    <SwitchPreference
+        android:key="battery_full_light_enabled"
+        android:title="@string/battery_full_light_enabled"
+        android:defaultValue="false" />
+
     <com.android.settingslib.widget.FooterPreference
         android:key="power_usage_footer"
         android:order="100"
