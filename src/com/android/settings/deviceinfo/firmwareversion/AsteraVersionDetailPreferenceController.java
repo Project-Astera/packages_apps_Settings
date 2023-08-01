@@ -45,6 +45,7 @@ public class AsteraVersionDetailPreferenceController extends BasePreferenceContr
     private static final int ACTIVITY_TRIGGER_COUNT = 3;
 
     private static final String KEY_ASTERA_BUILD_VERSION_PROP = "org.astera.build_version";
+    private static final String KEY_ASTERA_CODENAME_VERSION_PROP = "org.astera.codename";
     private static final String KEY_ASTERA_DEVICE_PROP = "ro.astera.device";
     private static final String KEY_ASTERA_RELEASE_TYPE_PROP = "org.astera.build_type";
     private static final String KEY_ASTERA_RELEASE_VERSION_PROP = "org.astera.version.display";
@@ -128,11 +129,13 @@ public class AsteraVersionDetailPreferenceController extends BasePreferenceContr
     private String shortRomVersion() {
         String romVersion = SystemProperties.get(KEY_ASTERA_BUILD_VERSION_PROP,
                 this.mContext.getString(R.string.device_info_default));
+        String releaseVersion = SystemProperties.get(KEY_ASTERA_CODENAME_VERSION_PROP,
+                this.mContext.getString(R.string.device_info_default));
         String deviceCodename = SystemProperties.get(KEY_ASTERA_DEVICE_PROP,
                 this.mContext.getString(R.string.device_info_default));
         String romReleasetype = SystemProperties.get(KEY_ASTERA_RELEASE_TYPE_PROP,
                 this.mContext.getString(R.string.device_info_default));
-        String shortVersion = romVersion + " | " + deviceCodename + " | " + romReleasetype;
+        String shortVersion = releaseVersion + " | " + romVersion + " | " + deviceCodename + " | " + romReleasetype;
         return shortVersion;
     }
 
