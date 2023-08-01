@@ -52,6 +52,14 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.SecurityPatchLevelPreferenceController"/>
 
+    <!-- Astera Maintainer  -->
+    <Preference
+        android:key="Astera_maintainer"
+        android:title="@string/Astera_maintainer"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.AsteraMaintainerPreferenceController"/>
+
     <!-- Mainline module version -->
     <Preference
         android:key="module_version"
