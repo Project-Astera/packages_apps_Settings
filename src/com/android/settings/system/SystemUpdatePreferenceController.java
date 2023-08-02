@@ -35,7 +35,7 @@ public class SystemUpdatePreferenceController extends BasePreferenceController {
     private static final String KEY_SYSTEM_UPDATE_SETTINGS = "system_update_settings";
 
     private static final String OTA_BUILD_TYPE_PROP = "org.astera.build_type";
-    private static final String OTA_APP_PACKAGE = "org.lineageos.updater";
+    private static final String OTA_APP_PACKAGE = "com.astera.updater";
 
     private final UserManager mUm;
 
