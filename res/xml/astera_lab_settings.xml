@@ -66,10 +66,5 @@
             android:title="@string/enable_fingerprint_ripple_effect_title"
             android:summary="@string/enable_fingerprint_ripple_effect_summary"
             android:defaultValue="true" />
-
-        <!-- Window level blur -->
-        <SwitchPreference
-            android:key="enable_blurs_on_windows"
-            android:title="@string/window_blurs"/>
     </PreferenceCategory>
 </PreferenceScreen>
