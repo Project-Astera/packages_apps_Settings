@@ -24,24 +24,41 @@
         android:selectable="false"
         settings:searchable="false"/>
 
-    <!-- Ignore secure window -->
-    <com.android.settings.custom.preference.SecureSettingSwitchPreference
-        android:key="window_ignore_secure"
-        android:title="@string/ignore_window_secure_title"
-        android:summary="@string/ignore_window_secure_summary"
-        android:defaultValue="false"/>
+    <PreferenceCategory
+        android:title="@string/lab_privacy_settings">
 
-    <!-- Disabling ripple effect on unlock -->
-    <com.android.settings.custom.preference.SystemSettingSwitchPreference
-        android:key="enable_ripple_effect"
-        android:title="@string/enable_fingerprint_ripple_effect_title"
-        android:summary="@string/enable_fingerprint_ripple_effect_summary"
-        android:defaultValue="true" />
+        <!-- Ignore secure window -->
+        <com.android.settings.custom.preference.SecureSettingSwitchPreference
+            android:key="window_ignore_secure"
+            android:title="@string/ignore_window_secure_title"
+            android:summary="@string/ignore_window_secure_summary"
+            android:defaultValue="false"/>
+    </PreferenceCategory>
 
-    <!-- QS footer data usage -->
-    <com.android.settings.custom.preference.SystemSettingSwitchPreference
-        android:key="qs_footer_data_usage"
-        android:title="@string/qs_footer_datausage_title"
-        android:summary="@string/qs_footer_datausage_summary"
-        android:defaultValue="false" />
+    <PreferenceCategory
+        android:title="@string/lab_qs_settings">
+
+        <!-- QS footer data usage -->
+        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="qs_footer_data_usage"
+            android:title="@string/qs_footer_datausage_title"
+            android:summary="@string/qs_footer_datausage_summary"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/lab_other_settings">
+
+        <!-- Disabling ripple effect on unlock -->
+        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="enable_ripple_effect"
+            android:title="@string/enable_fingerprint_ripple_effect_title"
+            android:summary="@string/enable_fingerprint_ripple_effect_summary"
+            android:defaultValue="true" />
+
+        <!-- Window level blur -->
+        <SwitchPreference
+            android:key="enable_blurs_on_windows"
+            android:title="@string/window_blurs"/>
+    </PreferenceCategory>
 </PreferenceScreen>

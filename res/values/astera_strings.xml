@@ -107,4 +107,7 @@
     <string name="astera_lab_title">ProjectAstera Workstation</string>
     <string name="astera_lab_footer">Warning: These features are experimental and may have risks. Use them with caution.</string>
     <string name="astera_lab_summary">Experimental features</string>
+    <string name="lab_privacy_settings">Privacy Settings</string>
+    <string name="lab_qs_settings">QS Panel Settings</string>
+    <string name="lab_other_settings">Other Settings</string>
 </resources>
