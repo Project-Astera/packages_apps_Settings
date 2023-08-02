@@ -109,6 +109,7 @@
     <string name="astera_lab_summary">Experimental features</string>
     <string name="lab_privacy_settings">Privacy Settings</string>
     <string name="lab_qs_settings">QS Panel Settings</string>
+    <string name="lab_monet_settings">Monet Settings</string>
     <string name="lab_other_settings">Other Settings</string>
 
     <!-- Monet settings -->

@@ -47,6 +47,17 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:title="@string/lab_monet_settings">
+
+        <!-- Monet Settings -->
+        <Preference
+            android:key="monet_settings"
+            android:title="@string/monet_settings_title"
+            android:summary="@string/monet_settings_sammary"
+            android:fragment="com.android.settings.custom.fragments.MonetSettings" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:title="@string/lab_other_settings">
 
         <!-- Disabling ripple effect on unlock -->
