@@ -121,4 +121,8 @@
     <string name="lab_privacy_settings">Privacy Settings</string>
     <string name="lab_qs_settings">QS Panel Settings</string>
     <string name="lab_other_settings">Other Settings</string>
+
+    <!-- QS Transparency -->
+    <string name="qs_transparency_title">Background transparency</string>
+    <string name="qs_transparency_summary">Set transparency level for QS background</string>
 </resources>
