@@ -121,6 +121,7 @@
     <string name="lab_privacy_settings">Privacy Settings</string>
     <string name="lab_qs_settings">QS Panel Settings</string>
     <string name="lab_monet_settings">Monet Settings</string>
+    <string name="lab_spoff_settings">Spoof Settings</string>
     <string name="lab_other_settings">Other Settings</string>
 
     <!-- QS Transparency -->
@@ -169,4 +170,8 @@
     <!-- IME button space -->
     <string name="navigation_bar_ime_space_title">Hide IME button space</string>
     <string name="navigation_bar_ime_space_summary">Hide IME button space below keyboard</string>
+
+    <!-- Unlock FPS for specific games -->
+    <string name="use_games_spoof_title">Unlock higher FPS in games</string>
+    <string name="use_games_spoof_summary">Spoof your device as a different model for specific games to unlock higher FPS</string>
 </resources>
