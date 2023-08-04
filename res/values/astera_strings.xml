@@ -121,7 +121,7 @@
     <string name="lab_privacy_settings">Privacy Settings</string>
     <string name="lab_qs_settings">QS Panel Settings</string>
     <string name="lab_monet_settings">Monet Settings</string>
-    <string name="lab_spoff_settings">Spoof Settings</string>
+    <string name="lab_spoof_settings">Spoof Settings</string>
     <string name="lab_other_settings">Other Settings</string>
 
     <!-- QS Transparency -->
