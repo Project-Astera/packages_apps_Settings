@@ -58,6 +58,16 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:title="@string/lab_spoof_settings">
+
+        <!-- Unlock FPS for specific games -->
+        <SwitchPreference
+            android:key="use_games_spoof"
+            android:title="@string/use_games_spoof_title"
+            android:summary="@string/use_games_spoof_summary" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:title="@string/lab_other_settings">
 
         <!-- Disabling ripple effect on unlock -->
