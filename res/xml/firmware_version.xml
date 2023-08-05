@@ -35,7 +35,7 @@
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:searchable="false"
-        settings:layout="@layout/top_level_preference_top"
+        settings:layout="@layout/top_level_preference_top_about"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
 
     <!-- Astera version -->
