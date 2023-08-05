@@ -31,7 +31,7 @@
             android:layout_height="wrap_content"
             android:textColor="?android:attr/textColorPrimary"
             android:singleLine="true"
-            android:textSize="20sp" />
+            android:textSize="14sp" />
 
         <TextView
             android:id="@android:id/summary"
