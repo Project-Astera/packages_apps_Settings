@@ -82,7 +82,6 @@ public class LabSettings extends SettingsPreferenceFragment implements
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         ContentResolver resolver = getActivity().getContentResolver();
-        return false;
 
         if (preference == mGamesSpoof) {
             boolean value = (Boolean) newValue;
@@ -92,6 +91,7 @@ public class LabSettings extends SettingsPreferenceFragment implements
             boolean value = (Boolean) newValue;
             SystemProperties.set(SYS_PHOTOS_SPOOF, value ? "true" : "false");
             return true;
+        }
         return false;
     }
 
@@ -130,4 +130,4 @@ public class LabSettings extends SettingsPreferenceFragment implements
                     return keys;
                 }
             };
-}
+    }
