@@ -58,6 +58,17 @@
         settings:layout="@layout/top_level_preference_middle"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.SecurityPatchLevelPreferenceController"/>
 
+<!-- SELinux -->
+    <Preference
+        android:key="selinux_status"
+        android:title="@string/selinux_status"
+        android:icon="@drawable/ic_dot_security"
+        android:summary="@string/summary_placeholder"
+        android:selectable="false"
+        settings:enableCopying="false"
+        settings:layout="@layout/top_level_preference_middle"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.SelinuxStatusPreferenceController"/>
+
     <!-- Astera Maintainer  -->
     <Preference
         android:key="Astera_maintainer"
