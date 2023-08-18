@@ -69,10 +69,6 @@
     <string name="volume_steps_voice_call_title">Voice Call</string>
     <string name="volume_steps_reset">Reset</string>
 
-    <!-- Black theme for dark mode -->
-    <string name="black_bg_title">Pure black</string>
-    <string name="black_bg_summary">Pure black background for dark theme</string>
-
     <!-- AOD Schedule -->
     <string name="always_on_display_schedule_title">Always on display schedule</string>
     <string name="always_on_display_schedule_sunset">Sunset</string>
