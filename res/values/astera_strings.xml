@@ -69,10 +69,6 @@
     <string name="volume_steps_voice_call_title">Voice Call</string>
     <string name="volume_steps_reset">Reset</string>
 
-    <!-- Black theme for dark mode -->
-    <string name="black_bg_title">Pure black</string>
-    <string name="black_bg_summary">Pure black background for dark theme</string>
-
     <!-- Force LTE_CA -->
     <string name="force_lte_ca">Force LTE CA</string>
     <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
