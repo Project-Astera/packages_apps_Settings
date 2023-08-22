@@ -55,6 +55,12 @@
             settings:units="%"
             android:max="100"
             android:min="1" />
+
+        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="qs_brightness_slider_haptic"
+            android:title="@string/qs_brightness_slider_haptic_title"
+            android:summary="@string/qs_brightness_slider_haptic_summary"
+            android:defaultValue="false" />
     </PreferenceCategory>
 
     <PreferenceCategory
