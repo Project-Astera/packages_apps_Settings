@@ -119,7 +119,6 @@
     <string name="lab_monet_settings">Monet Settings</string>
     <string name="lab_spoof_settings">Spoof Settings</string>
     <string name="lab_lockscreen_settings">Lockscreen Settings</string>
-    <string name="lab_other_settings">Other Settings</string>
 
     <!-- QS Transparency -->
     <string name="qs_transparency_title">Background transparency</string>
