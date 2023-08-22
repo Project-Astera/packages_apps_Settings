@@ -231,4 +231,12 @@
     <!-- Black theme -->
     <string name="system_black_theme_title">Use black theme</string>
     <string name="system_black_theme_summary">Force black background colors</string>
+
+    <!-- Low Gamma -->
+    <string name="low_gamma_title">Gamma correction</string>
+    <string name="low_gamma_summary">Enable or disable gamma correction for low brightness. A SystemUI restart is required.</string>
+    <string name="systemui_restart_title">Restart SystemUI</string>
+    <string name="systemui_restart_message">Do you want to restart SystemUI to apply changes?</string>
+    <string name="ok">Restart</string>
+    <string name="cancel">Cancel</string>
 </resources>
