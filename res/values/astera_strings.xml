@@ -111,7 +111,7 @@
     <string name="reticker_colored_summary">Replace reTicker background color using notification app main color</string>
 
     <!-- Project Astera Workstation -->
-    <string name="astera_lab_title">ProjectAstera Workstation</string>
+    <string name="astera_lab_title">Astera Workstation</string>
     <string name="astera_lab_footer">Warning: These features are experimental and may have risks. Use them with caution.</string>
     <string name="astera_lab_summary">Experimental features</string>
     <string name="lab_privacy_settings">Privacy Settings</string>
