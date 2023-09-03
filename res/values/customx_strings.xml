@@ -339,9 +339,9 @@
     <string name="search">Search</string>
     <string name="search_apps">Search apps</string>
 
-    <!-- Power menu on lockscreen -->
-    <string name="power_menu_hide_on_secure_title">Hide power menu on lock screen</string>
-    <string name="power_menu_hide_on_secure_summary">Hide the power menu while on a secure lock screen</string>
+    <!-- Power menu on secure lockscreen -->
+    <string name="lockscreen_enable_power_menu_title">Power menu</string>
+    <string name="lockscreen_enable_power_menu_summary">Allow accessing power menu on secure lockscreen</string>
 
     <!-- USB configuration -->
     <string name="usb_default_config_title">USB</string>
