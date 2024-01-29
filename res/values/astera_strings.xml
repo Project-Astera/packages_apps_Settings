@@ -107,6 +107,7 @@
     <string name="lab_qs_settings">QS Panel Settings</string>
     <string name="lab_monet_settings">Monet Settings</string>
     <string name="lab_spoof_settings">Spoof Settings</string>
+    <string name="lab_lockscreen_settings">Lockscreen Settings</string>
     <string name="lab_other_settings">Other Settings</string>
 
     <!-- Monet settings -->
@@ -262,4 +263,8 @@
     <!-- Floating rotation button -->
     <string name="floating_rotation_button_title">Floating rotate button</string>
     <string name="floating_rotation_button_summary">Show a floating rotate button when device is rotated</string>
+
+    <!-- Power menu on secure lockscreen -->
+    <string name="lockscreen_enable_power_menu_title">Power menu</string>
+    <string name="lockscreen_enable_power_menu_summary">Allow accessing power menu on secure lockscreen</string>
 </resources>
