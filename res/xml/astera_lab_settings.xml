@@ -110,5 +110,12 @@
             android:key="doze_on_charge"
             android:title="@string/doze_on_charge_title"
             android:summary="@string/doze_on_charge_summary" />
+
+        <!-- Floating rotation button -->
+        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="enable_floating_rotation_button"
+            android:title="@string/floating_rotation_button_title"
+            android:summary="@string/floating_rotation_button_summary"
+            android:defaultValue="true" />
     </PreferenceCategory>
 </PreferenceScreen>
