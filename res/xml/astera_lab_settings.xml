@@ -104,5 +104,11 @@
             android:title="@string/lockscreen_battery_info_title"
             android:summary="@string/lockscreen_battery_info_summary"
             android:defaultValue="true" />
+
+        <!-- Doze on charge -->
+        <com.android.settings.custom.preference.SecureSettingSwitchPreference
+            android:key="doze_on_charge"
+            android:title="@string/doze_on_charge_title"
+            android:summary="@string/doze_on_charge_summary" />
     </PreferenceCategory>
 </PreferenceScreen>
