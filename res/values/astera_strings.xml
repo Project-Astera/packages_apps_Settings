@@ -108,6 +108,7 @@
     <string name="lab_monet_settings">Monet Settings</string>
     <string name="lab_spoof_settings">Spoof Settings</string>
     <string name="lab_lockscreen_settings">Lockscreen Settings</string>
+    <string name="lab_lockscreen_media_art_settings">Lockscreen Media Art Settings</string>
     <string name="lab_other_settings">Other Settings</string>
 
     <!-- Monet settings -->
@@ -288,4 +289,8 @@
     <string name="fp_success_vibrate_summary">Vibrate when fingerprint authentication is successful</string>
     <string name="fp_error_vibrate_title">Fingerprint error vibration</string>
     <string name="fp_error_vibrate_summary">Vibrate when fingerprint authentication fails</string>
+
+    <!-- Lock screen cover art -->
+    <string name="lockscreen_media_art_title">Media cover art</string>
+    <string name="lockscreen_media_art_summary">Display media cover art when available</string>
 </resources>

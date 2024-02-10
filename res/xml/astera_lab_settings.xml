@@ -121,6 +121,17 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:title="@string/lab_lockscreen_media_art_settings">
+
+        <com.android.settings.custom.preference.SecureSettingSwitchPreference
+            android:key="lockscreen_media_metadata"
+            android:title="@string/lockscreen_media_art_title"
+            android:summary="@string/lockscreen_media_art_summary"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:title="@string/lab_other_settings">
 
         <!-- Doze on charge -->
