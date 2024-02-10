@@ -215,7 +215,7 @@
     <string name="dashboard_random5">こんにちは     </string>
     <string name="dashboard_random6">What\'s up  </string>
     <string name="dashboard_random_greetings1">Try to find some easter eggs!</string>
-    <string name="dashboard_random_greetings2">Be Superior!</string>
+    <string name="dashboard_random_greetings2">Dont be too crazy!</string>
     <string name="dashboard_random_greetings3">Try using the search bar!</string>
     <string name="dashboard_random_greetings4">Enjoy your day!</string>
     <string name="settings_random1">Searching for something?</string>
@@ -282,4 +282,10 @@
     <!-- Hidden apps -->
     <string name="hidden_apps_title">Hidden apps</string>
     <string name="hidden_apps_summary">Applications that should be hidden from launcher. Requires a launcher restart for changes to take effect</string>
+
+    <!-- Fingerprint authentication vibration -->
+    <string name="fp_success_vibrate_title">Fingerprint authentication vibration</string>
+    <string name="fp_success_vibrate_summary">Vibrate when fingerprint authentication is successful</string>
+    <string name="fp_error_vibrate_title">Fingerprint error vibration</string>
+    <string name="fp_error_vibrate_summary">Vibrate when fingerprint authentication fails</string>
 </resources>
